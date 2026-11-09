@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohamed-Rida Nasraoui – Portfolio</title>
+<meta name="description" content="Étudiant en Bachelor Informatique à l’ECE Bordeaux, intéressé par les systèmes, les réseaux et les infrastructures.">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Aller au contenu</a>
+<header class="top">
+  <a class="brand" href="#accueil">M-R Nasraoui</a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span><span></span></button>
+  <nav id="nav" aria-label="Navigation principale">
+    <a href="#apropos" data-i18n="nav.about">À propos</a>
+    <a href="#experience" data-i18n="nav.exp">Expérience</a>
+    <a href="#projets" data-i18n="nav.proj">Projets</a>
+    <a href="#competences" data-i18n="nav.skills">Compétences</a>
+    <a href="#engagement" data-i18n="nav.engage">Engagement</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <button class="lang" id="lang" aria-label="Switch language">EN</button>
+</header>
+<main id="main">
+<section id="accueil" class="hero">
+  <div class="hero-text">
+  <p class="role" data-i18n="hero.role">Étudiant en Bachelor Informatique · Systèmes, réseaux et infrastructures</p>
+  <h1>Mohamed-Rida Nasraoui</h1>
+  <p class="lead" data-i18n="hero.intro">Étudiant en 2ᵉ année à l’ECE Bordeaux (parcours Développeur en Intelligence Artificielle). Je cherche un stage de 2 mois et demi à partir de fin mai 2027 pour contribuer aux missions d’une équipe informatique.</p>
+  <p class="actions"><a class="btn" href="#projets" data-i18n="hero.cta1">Voir mes projets</a> <a class="btn ghost" href="#contact" data-i18n="hero.cta2">Me contacter</a></p>
+  </div>
+  <figure class="portrait"><img src="assets/images/photo.jpg" alt="Portrait de Mohamed-Rida Nasraoui" width="560" height="560" fetchpriority="high"></figure>
+</section>
+
+<section id="apropos">
+  <h2 data-i18n="about.title">À propos</h2>
+  <p data-i18n="about.p1">Je suis en Bachelor Informatique à l’ECE Bordeaux depuis 2025. Mon parcours est orienté intelligence artificielle, mais je m’intéresse surtout au fonctionnement des systèmes, des réseaux et des infrastructures.</p>
+  <p data-i18n="about.p2">Mon stage d’ingénieur système chez Orange Business m’a fait découvrir l’exploitation d’un service critique. Je veux approfondir ces sujets, avec rigueur et en équipe.</p>
+</section>
+
+<section id="experience">
+  <h2 data-i18n="exp.title">Expérience</h2>
+  <article class="card">
+    <h3 data-i18n="exp.role">Stagiaire ingénieur système · Orange Business</h3>
+    <p class="meta" data-i18n="exp.meta">Pessac · juin – septembre 2026 · hybride</p>
+    <ul>
+      <li data-i18n="exp.b1">Suivi d’activités d’exploitation sur un périmètre de paiement critique</li>
+      <li data-i18n="exp.b2">Participation aux points tickets via OSM et ServiceNow</li>
+      <li data-i18n="exp.b3">Suivi de mises en production (MEP)</li>
+      <li data-i18n="exp.b4">Information du N1 au démarrage et à la fin des opérations</li>
+      <li data-i18n="exp.b5">Recherche de logs et investigations avec Grafana</li>
+      <li data-i18n="exp.b6">Découverte de CAV, Azure, HAProxy, serveurs web et bases de données</li>
+      <li data-i18n="exp.b7">Compréhension de la continuité de service, de la redondance, du rollback et du PCA/PRA</li>
+    </ul>
+  </article>
+</section>
+
+<section id="projets">
+  <h2 data-i18n="proj.title">Projets</h2>
+  <p class="note" data-i18n="proj.note">Projets réalisés dans le cadre de ma formation. Les liens seront ajoutés une fois les dépôts publiables.</p>
+  <div class="grid">
+    <article class="card">
+      <h3 data-i18n="p1.t">Base de données cinéma (MongoDB)</h3>
+      <p data-i18n="p1.d">Atelier de modélisation et d’interrogation d’une base de films avec MongoDB Compass : collections films, personnes, commentaires et utilisateurs.</p>
+      <p class="meta">MongoDB · Compass</p>
+    </article>
+    <article class="card">
+      <h3 data-i18n="p2.t">Gestion d’un établissement scolaire (Java)</h3>
+      <p data-i18n="p2.d">TP de programmation orientée objet en Java : application console organisée en packages, développée avec IntelliJ.</p>
+      <p class="meta">Java · POO · IntelliJ</p>
+    </article>
+    <!-- MODÈLE DE PROJET : copie ce bloc, retire les marqueurs de commentaire et remplace les textes (voir README)
+    <article class="card">
+      <h3 data-i18n="p3.t">Titre du projet</h3>
+      <p data-i18n="p3.d">Objectif, ce que tu as réalisé personnellement, résultat.</p>
+      <p class="meta">Technologie 1 · Technologie 2</p>
+      <p class="links">
+        <a href="https://github.com/TON-PSEUDO/nom-du-depot" rel="noopener" target="_blank">Code source</a>
+        <a href="https://TON-PSEUDO.github.io/nom-du-depot/" rel="noopener" target="_blank">Démo</a>
+      </p>
+    </article>
+    -->
+  </div>
+</section>
+
+<section id="competences">
+  <h2 data-i18n="skills.title">Compétences</h2>
+  <dl class="skills">
+    <div><dt data-i18n="s1">Programmation</dt><dd>C, Python, Java, HTML, CSS <span class="lvl" data-i18n="lvl.i">intermédiaire</span></dd></div>
+    <div><dt data-i18n="s2">Systèmes</dt><dd>Linux, virtualisation (VM) <span class="lvl" data-i18n="lvl.n">notions</span></dd></div>
+    <div><dt data-i18n="s3">Réseaux</dt><dd>IP, DNS, DHCP, VPN, PKI <span class="lvl" data-i18n="lvl.n">notions</span></dd></div>
+    <div><dt data-i18n="s4">Exploitation</dt><dd>OSM, ServiceNow, Grafana, analyse de logs <span class="lvl" data-i18n="lvl.d">découverte en stage</span></dd></div>
+    <div><dt data-i18n="s5">Infrastructure</dt><dd>Azure, CAV, HAProxy <span class="lvl" data-i18n="lvl.d">découverte en stage</span></dd></div>
+    <div><dt data-i18n="s6">Outils</dt><dd>Git, GitHub <span class="lvl" data-i18n="lvl.i">intermédiaire</span></dd></div>
+  </dl>
+  <p class="note" data-i18n="lang.note">Langues : français courant, anglais intermédiaire, arabe natif.</p>
+</section>
+
+<section id="engagement">
+  <h2 data-i18n="engage.title">Engagement</h2>
+  <p data-i18n="engage.p">Bénévole chez Linkee. Description à compléter avant publication.</p>
+</section>
+
+<section id="contact">
+  <h2 data-i18n="contact.title">Contact</h2>
+  <p data-i18n="contact.p">Je suis disponible pour un stage à partir de fin mai 2027.</p>
+  <p class="actions">
+    <a class="btn" href="mailto:nasraouimohamedrida@gmail.com">E-mail</a>
+    <a class="btn ghost" href="https://linkedin.com/in/mohamed-rida-nasraoui" rel="noopener">LinkedIn</a>
+    <a class="btn ghost" href="assets/cv/CV_NASRAOUI_M-R.pdf" download data-i18n="contact.cv">Télécharger mon CV</a>
+  </p>
+</section>
+</main>
+<footer><p>© 2026 Mohamed-Rida Nasraoui</p></footer>
+</body>
+</html>
