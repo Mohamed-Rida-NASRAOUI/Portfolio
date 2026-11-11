@@ -36,7 +36,7 @@ VS Code > ouvrir le dossier > clic droit sur `index.html` > « Open with Live Se
 - Ne publie jamais de données confidentielles (clients, mots de passe, clés API, captures internes). Ajoute-les à `.gitignore` si besoin.
 - Pense à un `README` clair sur chaque dépôt projet : c’est souvent lu avant le portfolio.
 - Mets le lien du portfolio sur ton CV et ton LinkedIn (section Coordonnées et « À propos »).
-- Remplace la photo en gardant le nom `assets/images/photo.jpg` (format carré, environ 560 × 560 px).
+- Photo : retirée de cette version. Pour en remettre une, place-la dans `assets/images/` et ajoute `<img src="assets/images/photo.jpg" alt="Portrait de ...">` dans la section d’accueil.
 - Les couleurs se changent en haut de `css/style.css` (variables `--accent`, `--accent2`, `--bg`).
 
 ## Avant publication
